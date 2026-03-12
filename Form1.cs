@@ -51,19 +51,17 @@ namespace OOP2_Midterms
         {
             string query = "UPDATE Employees SET FirstName = ?, LastName = ? WHERE Id = ?";
 
-            using (OleDbConnection conn = new(connectionString))
-            using (OleDbCommand cmd = new(query, conn))
-            {
-                // 1. First ? is FirstName
-                cmd.Parameters.AddWithValue("@p1", newFirstName);
-                // 2. Second ? is LastName
-                cmd.Parameters.AddWithValue("@p2", newLastName);
-                // 3. Third ? is the Id in the WHERE clause
-                cmd.Parameters.AddWithValue("@p3", id);
+            using OleDbConnection conn = new(connectionString);
+            using OleDbCommand cmd = new(query, conn);
+            // 1. First ? is FirstName
+            cmd.Parameters.AddWithValue("@p1", newFirstName);
+            // 2. Second ? is LastName
+            cmd.Parameters.AddWithValue("@p2", newLastName);
+            // 3. Third ? is the Id in the WHERE clause
+            cmd.Parameters.AddWithValue("@p3", id);
 
-                conn.Open();
-                cmd.ExecuteNonQuery();
-            }
+            conn.Open();
+            cmd.ExecuteNonQuery();
         }
 
         public void DeleteRecord(int id)
