@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S/9ZJnqR7Gs=",
+  "dgSpecHash": "sR3KH42FNy4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dreeyanzz\\Documents\\dev\\OOP2_Midterms\\OOP2_Midterms.csproj",
+  "projectFilePath": "C:\\Users\\dreeyanzz\\Documents\\dev\\OOP2-Midterms\\OOP2_Midterms.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dreeyanzz\\.nuget\\packages\\system.data.oledb\\10.0.4\\system.data.oledb.10.0.4.nupkg.sha512"
   ],

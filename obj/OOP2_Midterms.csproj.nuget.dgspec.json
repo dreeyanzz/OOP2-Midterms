@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dreeyanzz\\Documents\\dev\\OOP2_Midterms\\OOP2_Midterms.csproj": {}
+    "C:\\Users\\dreeyanzz\\Documents\\dev\\OOP2-Midterms\\OOP2_Midterms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dreeyanzz\\Documents\\dev\\OOP2_Midterms\\OOP2_Midterms.csproj": {
+    "C:\\Users\\dreeyanzz\\Documents\\dev\\OOP2-Midterms\\OOP2_Midterms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dreeyanzz\\Documents\\dev\\OOP2_Midterms\\OOP2_Midterms.csproj",
+        "projectUniqueName": "C:\\Users\\dreeyanzz\\Documents\\dev\\OOP2-Midterms\\OOP2_Midterms.csproj",
         "projectName": "OOP2_Midterms",
-        "projectPath": "C:\\Users\\dreeyanzz\\Documents\\dev\\OOP2_Midterms\\OOP2_Midterms.csproj",
+        "projectPath": "C:\\Users\\dreeyanzz\\Documents\\dev\\OOP2-Midterms\\OOP2_Midterms.csproj",
         "packagesPath": "C:\\Users\\dreeyanzz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dreeyanzz\\Documents\\dev\\OOP2_Midterms\\obj\\",
+        "outputPath": "C:\\Users\\dreeyanzz\\Documents\\dev\\OOP2-Midterms\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
