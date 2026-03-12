@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "System.Data.OleDb/10.0.4": {
+        "runtime": {
+          "lib/net10.0/System.Data.OleDb.dll": {
+            "assemblyVersion": "10.0.0.4",
+            "fileVersion": "10.0.426.12010"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net10.0/System.Data.OleDb.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.4",
+            "fileVersion": "10.0.426.12010"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.Data.OleDb/10.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Lu4222hjydx2QVJPCUxy9aFXKf0tq9uTtS4iiPbdD5EuuV8pEx70R2Bn8BuD/9lkW+HhaM0O3cQp69EkTxKEAQ==",
+      "path": "system.data.oledb/10.0.4",
+      "hashPath": "system.data.oledb.10.0.4.nupkg.sha512"
+    }
+  }
+}
